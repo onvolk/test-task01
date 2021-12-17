@@ -1,0 +1,66 @@
+.header_top {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 100%;
+}
+
+.title_menu {
+    flex-basis: 80%; 
+}
+
+    .title {
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+        font-size: 1.2em;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        align-self: flex-end;
+        padding: 0 0 0 30vw;
+    }
+
+    .menu ul {
+        padding-inline-start: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+        .menu li {
+            display: inline-block;
+            background-color: #2C4C62;
+        }
+    
+            .menu li a {
+                display: inline-block;
+                padding: 0.5rem 1.5rem;
+                font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 1.25rem;
+                color: white;
+                text-decoration: none;
+                transition: 0.4s;
+            }
+    
+            .menu li a:hover {
+                background-color: #ddd;
+                color: #2C4C62;
+                transition: 0.4s;
+            }
+
+.header_logo {
+    flex-basis: 20%;
+    padding: 0 2vw 0 0;
+    align-items: flex-start;
+}
+
+    .header_logo img {
+        width: 10vw;
+        min-width: 5em;
+    }
+
+
+.motto {
+    width: 35vw;
+    align-self: flex-end;
+    padding-top: 20rem;
+}
+
