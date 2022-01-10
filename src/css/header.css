@@ -60,15 +60,13 @@
 
 
 .motto {
-    border: 1px solid red;
     flex-basis: 25%;
     align-self: flex-end;
     background-image: url('../images/motto.svg');
-    background-position: right;
+    background-position: bottom right;
     background-repeat: no-repeat;
     background-size: contain;
-    min-width: 10%;
-    min-height: 15vw;
+    width: 100%;
 }
 
 @media only screen and (max-width: 767px) { 
@@ -80,4 +78,4 @@
         font-size: 0.9em;
         padding: 0.2em 1em;
     } 
-} 
+}

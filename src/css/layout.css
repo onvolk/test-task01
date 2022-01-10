@@ -15,16 +15,14 @@ body {
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1920px;
     box-shadow: -10px 0px 13px -7px #00000056, 10px 0px 13px -7px #00000056, inset 1px 50px 50px -30px rgba(248,248,248,0);
 }
 
 header {
     display: flex;
     flex-direction: column;   
-    flex-wrap: wrap;
     background-image: url('../images/header.jpg');
     background-position: top center;
     background-repeat: no-repeat;
@@ -33,6 +31,13 @@ header {
     height: 100vh;
     max-height: 1080px;
 }
+
+    @media only screen and (max-width: 767px) { 
+        header { 
+            background-image: url('../images/header_mobile.jpg');
+            height: 50vw;
+        } 
+    }
 
 footer {
     display: flex;
@@ -43,9 +48,4 @@ footer {
     height: 10rem;
 }
 
-@media only screen and (max-width: 767px) { 
-    header { 
-        background-image: url('../images/header_mobile.jpg'); 
-        height:auto;    
-    } 
-} 
+
