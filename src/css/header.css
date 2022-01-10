@@ -1,5 +1,6 @@
 .header_top {
     display: flex;
+    flex-basis: 75%; 
     flex-direction: row;
     align-content: space-between;
     width: 100%;
@@ -15,7 +16,7 @@
         color: rgb(255, 255, 255);
         text-transform: uppercase;
         align-self: flex-end;
-        padding: 0 0 0 30vw;
+        padding: 0.8em 0 0 30vw;
     }
 
     .menu ul {
@@ -59,8 +60,24 @@
 
 
 .motto {
-    width: 35vw;
+    border: 1px solid red;
+    flex-basis: 25%;
     align-self: flex-end;
-    padding-top: 20rem;
+    background-image: url('../images/motto.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 10%;
+    min-height: 15vw;
 }
 
+@media only screen and (max-width: 767px) { 
+    .title { 
+        padding: 0.4em 0 0 10vw;
+        font-size: 0.8em;      
+    }
+    .menu li a {
+        font-size: 0.9em;
+        padding: 0.2em 1em;
+    } 
+} 

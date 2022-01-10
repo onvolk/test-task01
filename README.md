@@ -5,13 +5,13 @@ Project description will be here...
 ## Todo
 
 ### First priority
-- Rename `all.css` to `font-awesome-all.css`
 - Center `.wrapper` with Flexbox
 - Layout (width, height, background) for the footer
-- Shadow of the `.wrapper`
 - SVG and positioning for the logo
 - Title in the header
 - Check if we need to close single tags in HTML5 (`/>`)
+- Change links to placeholders (are `#` good?)
+- Text in all SVG as curves
 
 ### Second priority
 - Favicon
