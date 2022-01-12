@@ -1,8 +1,9 @@
 .footer_logo {
+    border: 1px solid red;
     flex-basis: 20%;
     align-self: flex-end;
     text-align: center;
-    margin: 2vh 0 0 0;
+    margin: 2vh 2vh 0 2vh;
 }
     .footer_logo a img {
         height: 20vh;
@@ -10,10 +11,12 @@
     }
 
 .footer_menu {
+    border: 1px solid red;
     flex-basis: 30%;
     align-self: center;
 }
     .footer_menu ul {
+        border: 1px solid red;
         display:flex;
         flex-wrap: wrap;
         padding-inline-start: 0;
@@ -37,10 +40,12 @@
                 }
 
 .footer_links{
+    border: 1px solid red;
     flex-basis: 50%;
-    align-self:flex-end;
+    align-self:center;
 }
     .footer_links ul{
+        border: 1px solid red;
         display: flex;
         flex-wrap: wrap;
         list-style-type: none;
@@ -48,6 +53,7 @@
         padding: 1rem 1rem 1rem 0;
     }
         .footer_links ul li{
+            border: 1px solid red;
             padding: 1rem 1.5rem;
         }
             .footer_links li a{
@@ -61,18 +67,30 @@
                     transition: 0.4s;
                 }
 
- /*   @media only screen and (max-width: 767px) { 
-        .footer_menu li a {
-            font-size: 0.9em;
-            padding: 0.2em 1em;
-        }
-        .footer_links li a {
-            font-size: 0.9em;
-            padding: 0.2em 1em;
-        }
-            .footer_links a i {
-                font-size: 0.9em;
-                padding: 0.5rem 0.5rem;
-            } 
+ @media only screen and (max-width: 767px) { 
+    .footer_logo {
+        flex-basis: 10%;
     }
-*/
+        .footer_logo a img {
+            height: 10vh;
+        }
+    .footer_menu{
+        display: none;
+    }           
+    .footer_links{
+        flex-basis: 90%;
+        align-self:center;
+    }
+        .footer_links ul li{
+            border: 1px solid red;
+            padding: 0 0;  
+        }
+            .footer_links li a {
+                font-size: 0.9em;
+                padding: 0.2em 1em;
+            }
+                .footer_links a i {
+                    font-size: 0.9em;
+                    padding: 0.5rem 0.5rem;
+                } 
+    }
