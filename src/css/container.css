@@ -39,12 +39,10 @@
         flex-wrap: wrap;
     }
     .article_top_image {
-        border: 1px solid red;
-        flex-basis: 50%; 
+        border: 1px solid red;     
     }
     .article_top_text {
         border: 1px solid red;
-        flex-basis: 50%;
     }
 .article_donate {
     flex: 1;
