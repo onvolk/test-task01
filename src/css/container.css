@@ -3,11 +3,9 @@
 .article_top {
     flex: 2;
     flex-basis: 100%;
-    border: 1px solid red;
     background-color: #E8E8E8;
-    height: 300px;
-    margin: 2rem 2rem 1rem 2rem;
-    padding: 1.5rem;
+    margin: 2.5rem 2.5rem 1.25rem 2.5rem;
+    padding: 2rem;
 }
     .article_top h1{
         font-family: 'Poppins', sans-serif;
@@ -17,21 +15,87 @@
         -webkit-text-stroke:3px #2C4C62;
         -webkit-text-fill-color:transparent;
     }
+    .article_top p{
+        font-size: 1.15rem;
+        line-height: 1.5rem;
+    }
+    .article_top ul{
+        line-height: 1.5rem;
+        font-size: 1.15rem;
+    }
+    .article_top a{
+        color: #2C4C62;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+        .article_top a:hover {
+            color: rgb(182, 182, 182);
+            transition: 0.4s;
+        }
 
 .article_donate {
     flex: 1;
-    border: 1px solid red;
     background-color: #E8E8E8;
-    height: 300px;
-    margin: 1rem 1rem 2rem 2rem;
-    padding: 1.5rem;
+    height: auto;
+    margin: 1.25rem 2.5rem 1.25rem 2.5rem;
+    padding: 2rem;
+    text-align: center;
 }
+    .recycle i {
+        color: #009245;
+        font-size: 7rem;
+    }
+    .article_donate h2 {
+        font-family: 'Poppins', sans-serif;
+        color: #8CC63F;
+        font-size: 3rem;
+    }
+    .article_donate a {
+        color: #2C4C62;
+        font-size: 1.25rem;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+        .article_donate a:hover {
+            color: rgb(182, 182, 182);
+            transition: 0.4s;
+        }
 
 .article_report {
     flex: 1;
-    border: 1px solid red;
     background-color: #E8E8E8;
-    height: 300px;
-    margin: 1rem 2rem 2rem 1rem;
-    padding: 1.5rem;
+    height: auto;
+    margin: 1.25rem 2.5rem 1.25rem 2.5rem;
+    padding: 2rem;
+    text-align: center;
 }
+    .tree i {
+        color: #009245;
+        font-size: 9rem;
+    }
+    .article_report a {
+        color: #2C4C62;
+        font-size: 1.25rem;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+        .article_report a:hover {
+            color: rgb(182, 182, 182);
+            transition: 0.4s;
+        }
+        .article_report a i {
+            color: #009245;
+        }
+        .hr-dashed {
+            margin: 4rem 0.5rem 2rem 0.5rem;
+            padding: 0;
+            height: 0;
+            border: none;
+            border-top: 0.3rem dashed #009245;
+        }
+
+/*@media only screen and (max-width: 767px) {
+     {
+        font-size: 0.6em;
+    }
+}*/
