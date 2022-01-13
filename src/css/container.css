@@ -33,9 +33,23 @@
             transition: 0.4s;
         }
 
+    .article_top_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .article_top_image {
+        border: 1px solid red;
+        flex-basis: 50%; 
+    }
+    .article_top_text {
+        border: 1px solid red;
+        flex-basis: 50%;
+    }
 .article_donate {
     flex: 1;
     background-color: #E8E8E8;
+    height: auto;
     margin: 1.25rem 2.5rem 1.25rem 2.5rem;
     padding: 2rem;
     text-align: center;
@@ -63,6 +77,7 @@
 .article_report {
     flex: 1;
     background-color: #E8E8E8;
+    height: auto;
     margin: 1.25rem 2.5rem 1.25rem 2.5rem;
     padding: 2rem;
     text-align: center;
@@ -70,6 +85,14 @@
     .tree i {
         color: #009245;
         font-size: 9rem;
+    }
+    .tree i:first-child {
+        color: #8CC63F;
+        font-size: 6rem;
+    }
+    .tree i:last-child {
+        color: #8CC63F;
+        font-size: 6rem;
     }
     .article_report a {
         color: #2C4C62;
