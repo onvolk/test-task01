@@ -14,6 +14,9 @@ Project description will be here...
 - Text in all SVG as curves
 
 ### Second priority
+- Download and use local copy of Google fonts (do we really need all of them?)
+- Remove UTF-8 encoding specification from CSS
+- Check why `&nbsp;` does not work
 - Favicon
 - Meta-tags
 - Fix front page header image (white border, artifact on the right)
