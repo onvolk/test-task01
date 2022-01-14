@@ -39,15 +39,26 @@
         flex-wrap: wrap;
     }
     .article_top_image {
-        border: 1px solid red;     
+        flex-basis: 50%;
+        border: 1px solid red;   
+        padding: 1rem  
     }
+        .article_top_image img {
+            max-width: 100%;
+            height: auto;
+            width: auto;
+        }
     .article_top_text {
+        flex-basis: 50%;
         border: 1px solid red;
+        padding: 2rem;
+    }
+    .more {
+        text-align: right;
     }
 .article_donate {
     flex: 1;
     background-color: #E8E8E8;
-    height: auto;
     margin: 1.25rem 2.5rem 1.25rem 2.5rem;
     padding: 2rem;
     text-align: center;
@@ -75,7 +86,6 @@
 .article_report {
     flex: 1;
     background-color: #E8E8E8;
-    height: auto;
     margin: 1.25rem 2.5rem 1.25rem 2.5rem;
     padding: 2rem;
     text-align: center;
@@ -113,8 +123,68 @@
             border-top: 0.3rem dashed #009245;
         }
 
-/*@media only screen and (max-width: 767px) {
-     {
-        font-size: 0.6em;
+@media only screen and (max-width: 767px) {
+    .article_top {
+        margin: 1rem 1rem 0.5rem 1rem;
+        padding: 1rem;
     }
-}*/
+        .article_top h1{
+            font-size: 1rem;
+            margin: 0.2rem;
+        }
+        .article_top p{
+            font-size: 0.6rem;
+            line-height: 1rem;
+        }
+        .article_top ul{
+            line-height: 1rem;
+            font-size: 0.6rem;
+        }
+        .article_top_image {
+            padding: 0.7rem;
+            flex-basis: 100%; 
+        }
+        .article_top_text {
+            padding: 0.7rem;
+            flex-basis: 100%;
+        }
+        .more {
+            text-align: right;
+        }
+    .article_donate {
+        margin: 0.5rem 1rem 0.5rem 1rem;
+        padding: 1rem;
+    }
+        .recycle i {
+            font-size: 2rem;
+        }
+        .article_donate h2 {
+            font-size: 1rem;
+        }
+        .article_donate a {
+            font-size: 0.6rem;
+        }  
+    .article_report {
+        margin: 0.5rem 1rem 0.5rem 1rem;
+        padding: 1rem;
+    }
+        .tree i {
+            font-size: 2rem;
+        }
+        .tree i:first-child {
+            font-size: 1rem;
+        }
+        .tree i:last-child {
+            font-size: 1rem;
+        }
+        .article_report a {
+            font-size: 0.6rem;
+        }
+            .hr-dashed {
+                margin: 2rem 0.2rem 0.5rem 0.2rem;
+                padding: 0;
+                height: 0;
+                border: none;
+                border-top: 0.3rem dashed #009245;
+            }
+}
