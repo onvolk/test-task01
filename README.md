@@ -5,10 +5,14 @@ Project description will be here...
 ## Todo
 
 ### First priority
-- Check if we need to close single tags in HTML5 (`/>`)
-- Change links to placeholders (are `#` good?)
+- Page assembly for internal pages (with webpack?) 
+    - github pages for subfolder?
+    - local web server for mobile devices
 
 ### Second priority
+- How to property specify image sizes
+- Check if we need to close single tags in HTML5 (`/>`)
+- Change links to placeholders (are `#` good?)
 - Download and use local copy of Google fonts (do we really need all of them?)
 - Remove UTF-8 encoding specification from CSS
 - Check why `&nbsp;` does not work
