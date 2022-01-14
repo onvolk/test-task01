@@ -12,8 +12,8 @@
         font-size: 4rem;
         margin: 0.5rem;
         color: #2C4C62;
-        -webkit-text-stroke:3px #2C4C62;
-        -webkit-text-fill-color:transparent;
+        -webkit-text-stroke: 3px #2C4C62;
+        -webkit-text-fill-color: transparent;
     }
     .article_top p{
         font-size: 1.15rem;
@@ -131,6 +131,7 @@
         .article_top h1{
             font-size: 2rem;
             margin: 0.2rem;
+            -webkit-text-stroke: 1px #2C4C62;
         }
         .article_top p{
             font-size: 0.6rem;
