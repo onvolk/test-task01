@@ -55,7 +55,7 @@
         }
     .article_top_text {
         flex-basis: 50%;
-        padding: 0 2rem 2rem 2rem;
+        padding: 1rem 2rem 2rem 2rem;
     }
     .more {
         text-align: right;
@@ -132,17 +132,17 @@
         margin: 1rem 1rem 0.5rem 1rem;
         padding: 1rem;
     }
-        .article_top h1{
+        .article_top h1 {
             font-size: 2rem;
             margin: 0.7rem;
             -webkit-text-stroke: unset;
             -webkit-text-fill-color: unset;
         }
-        .article_top p{
+        .article_top p {
             font-size: 0.8rem;
             line-height: 1.2rem;
         }
-        .article_top ul{
+        .article_top ul {
             line-height: 1.2rem;
             font-size: 0.8rem;
         }
@@ -150,6 +150,9 @@
             padding: 0.7rem;
             flex-basis: 100%; 
         }
+            .article_top_image img {
+                padding: 0.5rem;
+            }
         .article_top_text {
             padding: 0 0.7rem 0.7rem 0.7rem;
             flex-basis: 100%;
