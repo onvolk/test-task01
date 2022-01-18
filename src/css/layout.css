@@ -33,6 +33,12 @@ header {
     height: 100vh;
     max-height: 1080px;
 }
+    header.subpage {
+        background-image: url('../images/header_subpage.jpg');
+        background-size: cover;
+        background-position: bottom center;
+        height: 75vh;
+    }
 
 footer {
     display: flex;
@@ -50,6 +56,10 @@ footer {
 @media only screen and (max-width: 767px) { 
     header { 
         background-image: url('../images/header_mobile.jpg');
-        height: 50vw;
+        height: 40vw;
     }
-}
+        header.subpage {
+            background-image: url('../images/header_subpage_mobile.jpg');
+            height: 50vw;
+        }
+}   

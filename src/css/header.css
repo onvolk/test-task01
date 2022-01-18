@@ -5,6 +5,9 @@
     align-content: space-between;
     width: 100%;
 }
+    header.subpage .header_top {
+        flex-basis: 80%;
+    }
 
 .title_menu {
     flex-basis: 80%; 
@@ -16,7 +19,11 @@
         color: rgb(255, 255, 255);
         text-transform: uppercase;
         align-self: flex-end;
-        padding: 0.8em 0 0 30vw;
+        padding: 0.8em 0 0 35vw;
+    }
+    header.subpage .title {
+        color: #2C4C62;
+        padding: 0.8em 0 0 40vw;
     }
 
     .menu ul {
@@ -48,16 +55,15 @@
             }
 
 .header_logo {
-    flex-basis: 20%;
+    flex-basis: 15%;
     padding: 0 2vw 0 0;
     align-items: flex-start;
 }
 
-    .header_logo img {
+    .header_logo {
         width: 10vw;
         min-width: 5em;
     }
-
 
 .motto {
     flex-basis: 25%;
@@ -68,11 +74,18 @@
     background-size: contain;
     width: 100%;
 }
+    header.subpage .motto {
+        background-image: url('../images/motto_diversity.svg');
+        flex-basis: 20%;
+    }
 
 @media only screen and (max-width: 767px) { 
     .title { 
         padding: 0.4em 0 0 10vw;
-        font-size: 0.8em;      
+        font-size: 0.6em;      
+    }
+    header.subpage .title {
+        padding: 0.4em 0 0 10vw;
     }
     .menu li a {
         font-size: 0.9em;
