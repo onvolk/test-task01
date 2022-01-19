@@ -22,6 +22,10 @@ body {
     box-shadow: -10px 0px 13px -7px #00000056, 10px 0px 13px -7px #00000056, inset 1px 50px 50px -30px rgba(248,248,248,0);
 }
 
+    .subpage .wrapper {
+        background-color: #E8E8E8;
+    }
+
 header {
     display: flex;
     flex-direction: column;   
@@ -33,7 +37,7 @@ header {
     height: 100vh;
     max-height: 1080px;
 }
-    header.subpage {
+    .subpage header {
         background-image: url('../images/header_subpage.jpg');
         background-size: cover;
         background-position: bottom center;
@@ -53,12 +57,16 @@ footer {
     font-family: Merriweather, serif;
 }
 
+    .subpage .container {
+        padding-top: 2rem;
+    }
+
 @media only screen and (max-width: 767px) { 
     header { 
         background-image: url('../images/header_mobile.jpg');
         height: 40vw;
     }
-        header.subpage {
+        .subpage header {
             background-image: url('../images/header_subpage_mobile.jpg');
             height: 50vw;
         }
