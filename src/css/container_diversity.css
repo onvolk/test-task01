@@ -7,14 +7,13 @@
 
     .article_diversity_image {
         flex-basis: 50%;
+        background-image: url('../images/article_diversity_img.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        max-height: 681px;
+        min-height: 50vh;
     }
-
-        .article_diversity_image img {
-            max-width: 100%;
-            height: auto;
-            width: auto;
-            display: block;
-        }
 
     .article_diversity_text {
         flex-basis: 50%;
@@ -50,14 +49,11 @@
 
     .article_individually_image {
         flex-basis: 50%;
+        background-image: url('../images/article_individually_img.jpg');
+        background-size: cover;
+        max-height: 660px;
+        min-height: 60vh;
     }
-
-        .article_individually_image img {
-            max-width: 100%;
-            height: auto;
-            width: auto;
-            display: block;
-        }
 
     .article_individually_text {
         flex-basis: 50%;
@@ -111,10 +107,12 @@
 @media only screen and (max-width: 767px) {
     .article_diversity_image {
         flex-basis: 100%;
+        min-height: 35vh;
     }
 
     .article_individually_image {
         flex-basis: 100%;
+        min-height: 35vh;
     }
 
     .article_diversity {
@@ -130,19 +128,15 @@
     
             h1.right {
                 font-size: 1.8rem;
-                color: #2C4C62;
                 margin-left: 2rem;
             }
     
             .text_right {
-                border-left: 2px solid #2C4C62;
                 padding-left: 1.25rem;
                 margin: 2rem 0 2rem 0;
-                font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
             }
     
             .more.right {
-                text-align: left;
                 margin-left: 1rem;
             }
     
@@ -159,17 +153,12 @@
     
             h1.left {
                 font-size: 1.8rem;
-                color: #2C4C62;
-                text-align: right;
                 margin-right: 2rem;
             }
     
             .text_left {
-                border-right: 2px solid #2C4C62;
                 padding-right: 1.25rem;
-                text-align: right;
                 margin: 2rem 0 2rem 0;
-                font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
             }
     
             .more.left {
@@ -177,26 +166,15 @@
             }
     
         a {
-            color: #2C4C62;
             font-size: 1rem;
-            text-decoration: none;
-            transition: 0.4s;
         }
-            a:hover {
-                color: rgb(182, 182, 182);
-                transition: 0.4s;
-            }
     
     .download {
-        flex-basis: 100%;
         padding: 0 1rem 0 0;
-        margin: 0;
     }
     
         .download p {
-            text-align: right;
             font-size: 2rem;
-            margin: 0;
         }
     
 }
