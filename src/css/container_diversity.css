@@ -52,7 +52,7 @@
         background-image: url('../images/article_individually_img.jpg');
         background-size: cover;
         max-height: 660px;
-        min-height: 60vh;
+        min-height: 50vh;
     }
 
     .article_individually_text {
@@ -83,6 +83,7 @@
 
     a {
         color: #2C4C62;
+        font-family: Merriweather, serif;
         font-size: 1.25rem;
         text-decoration: none;
         transition: 0.4s;

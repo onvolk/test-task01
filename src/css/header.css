@@ -79,6 +79,11 @@
         flex-basis: 20%;
     }
 
+    .motto_individually {
+        background-image: url('../images/motto_individually.svg');
+        flex-basis: 20%;
+    }
+
 @media only screen and (max-width: 767px) { 
     .title { 
         padding: 0.4em 0 0 10vw;

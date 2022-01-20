@@ -1,0 +1,102 @@
+section {
+    background-color: white;
+    padding: 2.5rem;
+}
+
+h1 {
+    font-size: 3.25rem;
+    color: #2C4C62;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2.25rem;
+    color: #2C4C62;
+    margin-top: 0rem;
+
+}
+
+p {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.6rem; 
+}
+
+    .article_individually_top {
+        padding: 2rem;
+    }
+
+    .article_individually_top img {
+        width: 30vw;
+        float: left;
+        margin: 0 2rem 2rem 0;
+    }
+
+    .article_individually_center {
+        border: 3px dashed #2C4C62;
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+        .article_individually_center_text {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-end;
+        }
+
+        .article_individually_center_text div {
+            flex-basis: 50%;
+        }
+
+    .article_individually_bottom {
+        border-left: 3px solid #2C4C62;
+        padding-left: 2rem;
+        margin: 2rem 0 2rem 2rem;
+    }
+
+@media only screen and (max-width: 767px) {
+    section {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+        margin-top: 0;
+    
+    }
+    
+    p {
+        font-size: 0.9rem;
+        line-height: 1.2rem; 
+    }
+    
+        .article_individually_top {
+            padding: 1rem;
+        }
+    
+        .article_individually_top img {
+            width: 30vw;
+            margin: 0 1rem 0rem 0;
+        }
+    
+        .article_individually_center {
+            padding: 1rem;
+        }
+
+            .article_individually_center_text div {
+                flex-basis: 100%;
+            }
+    
+        .article_individually_bottom {
+            padding-left: 1rem;
+            margin: 1rem 0 1rem 0.5rem;
+        }
+    }
