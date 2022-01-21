@@ -29,7 +29,7 @@
         transition: 0.4s;
     }
         .article_top a:hover {
-            color: rgb(182, 182, 182);
+            color: rgb(0, 141, 0);
             transition: 0.4s;
         }
 
@@ -83,7 +83,7 @@
         transition: 0.4s;
     }
         .article_donate a:hover {
-            color: rgb(182, 182, 182);
+            color: rgb(0, 141, 0);
             transition: 0.4s;
         }
 
@@ -113,7 +113,7 @@
         transition: 0.4s;
     }
         .article_report a:hover {
-            color: rgb(182, 182, 182);
+            color: rgb(0, 141, 0);
             transition: 0.4s;
         }
         .article_report a i {

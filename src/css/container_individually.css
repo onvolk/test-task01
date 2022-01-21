@@ -1,6 +1,7 @@
 section {
     background-color: white;
     padding: 2.5rem;
+    margin: 2.5rem 0 0 0;
 }
 
 h1 {
@@ -30,10 +31,15 @@ p {
         width: 30vw;
         float: left;
         margin: 0 2rem 2rem 0;
+        padding: 0 0.7rem 0.7rem 0.7rem;
+        background-image: url('../images/subpage_background_image_border.svg');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: contain;
     }
 
     .article_individually_center {
-        border: 3px dashed #2C4C62;
+        background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' style='fill: none; stroke: rgb(45,76,98); stroke-width: 7; stroke-dasharray: 12 15'/></svg>");
         padding: 2rem;
         display: flex;
         flex-direction: row;
@@ -49,6 +55,7 @@ p {
 
         .article_individually_center_text div {
             flex-basis: 50%;
+            padding-right: 1.5rem;
         }
 
     .article_individually_bottom {
@@ -60,6 +67,7 @@ p {
 @media only screen and (max-width: 767px) {
     section {
         padding: 1rem;
+        margin: 0.5rem 0 0 0;
     }
     
     h1 {
@@ -83,8 +91,9 @@ p {
         }
     
         .article_individually_top img {
-            width: 30vw;
+            width: 40vw;
             margin: 0 1rem 0rem 0;
+            padding: 0 0.4rem 0.4rem 0.4rem;
         }
     
         .article_individually_center {
@@ -93,6 +102,7 @@ p {
 
             .article_individually_center_text div {
                 flex-basis: 100%;
+                padding-right: 0.9rem;
             }
     
         .article_individually_bottom {
