@@ -26,26 +26,29 @@ next year should support the spirit and the visual style.
 ## Todo
 
 ### First priority
-- Page assembly for internal pages (with webpack?) 
-    - github pages for subfolder?
-    - local web server for mobile devices
-
-### Second priority
-- How to property specify image sizes
-- Check if we need to close single tags in HTML5 (`/>`)
-- Change links to placeholders (are `#` good?)
+- Extract SVG from `.article_individually_center`
+- `<meta charset="UTF-8">` should be put on top
+- Check that all CSS files are included everywhere (and check that all
+selectors are properly scoped (`p`, `section` etc))
+- Different titles on different pages
+- Rename HTML files in one style
+- Style "current" page in both header and footer menu (let's consider
+removing `href` attribute and styling via `a:link` pseudo-selector,
+like here https://www.enovate.co.uk/blog/2013/07/16/html5-placeholder-links)
 - Download and use local copy of Google fonts (do we really need all of them?)
+- Put all fonts into `layout.css`
 - Remove UTF-8 encoding specification from CSS
-- Check why `&nbsp;` does not work
-- Favicon
-- Meta-tags
-- Check if anything can be taken from HTML5 Boilerplate project
-- Fix front page header image (white border, artifact on the right)
-- Extract only used icons from Font Awesome (using font or SVGs)
-- Minimize SVGs
-- Print CSS
-
+- Check why `&nbsp;` does not work (this?
+https://stackoverflow.com/a/25233914/118810)
+- Favicon and Apple Touch icon (let's take one from Report-2021)
+- `<meta name="theme-color" content="#fafafa">`,
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
+- `...` -> `&hellip;`
+- CSS for printing
 
 ### Ideas
-- Accordion/image gallery 
+- Accordion effect in menu
+- Use HTML templating to reduce duplication
+- Local web server
 - Combine and minimize CSS
+- Subset Font Awesome

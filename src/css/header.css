@@ -37,6 +37,10 @@
             display: inline-block;
             background-color: #2C4C62;
         }
+
+            .menu li.menu_aktive a {
+                border: 1px solid white;
+            }
     
             .menu li a {
                 display: inline-block;
@@ -46,11 +50,13 @@
                 color: white;
                 text-decoration: none;
                 transition: 0.4s;
+                border: 1px solid #2C4C62;
             }
     
             .menu li a:hover {
                 background-color: #ddd;
                 color: #2C4C62;
+                border: 1px solid #ddd;
                 transition: 0.4s;
             }
 

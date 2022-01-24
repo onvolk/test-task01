@@ -39,6 +39,17 @@
             text-align: left;
             margin-left: 2rem;
         }
+    .article_diversity a {
+        font-family: Merriweather, serif;
+        font-size: 1.25rem;
+        color: #2C4C62;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+        .article_diversity a:hover {
+            color: rgb(0, 141, 0);
+            transition: 0.4s;
+        }
 
 .article_individually {
     display: flex;
@@ -81,10 +92,17 @@
             margin-right: 2rem;
         }
 
-    a {
+    .article_individually a {
         font-family: Merriweather, serif;
         font-size: 1.25rem;
+        color: #2C4C62;
+        text-decoration: none;
+        transition: 0.4s;
     }
+        .article_individually a:hover {
+            color: rgb(0, 141, 0);
+            transition: 0.4s;
+        }
 
 .download {
     flex-basis: 100%;
@@ -94,9 +112,19 @@
 
     .download p {
         text-align: right;
-        font-size: 3rem;
         margin: 1rem 0 0 0;
     }
+    .download a {
+        font-family: Merriweather, serif;
+        font-size: 1.5rem;
+        color: #2C4C62;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+        .download a:hover {
+            color: rgb(0, 141, 0);
+            transition: 0.4s;
+        }
 
 @media only screen and (max-width: 767px) {
     .article_diversity_image {
@@ -133,6 +161,10 @@
             .more.right {
                 margin-left: 1rem;
             }
+
+    .article_diversity a {
+        font-size: 1rem;
+        }
     
     .article_individually {
         margin: 1.25rem 0rem 0.6rem 0rem;
@@ -159,16 +191,16 @@
                 margin-right: 1rem;
             }
     
-        a {
-            font-size: 1rem;
-        }
+    .article_individually a {
+        font-size: 1rem;
+    }
     
     .download {
         padding: 0 1rem 0 0;
     }
     
-        .download p {
-            font-size: 2rem;
+        .download a {
+            font-size: 1rem;
         }
     
 }

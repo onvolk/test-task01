@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-.container a {
-    color: #2C4C62;
-    text-decoration: none;
-    transition: 0.4s;
-}
-    .container a:hover {
-        color: rgb(0, 141, 0);
-        transition: 0.4s;
-    }
-
 .article_top {
     flex: 2;
     flex-basis: 100%;
@@ -33,6 +23,18 @@
         line-height: 1.5rem;
         font-size: 1.15rem;
     }
+
+    .article_top a {
+        font-family: Merriweather, serif;
+        font-size: 1.25rem;
+        color: #2C4C62;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+        .article_top a:hover {
+            color: rgb(0, 141, 0);
+            transition: 0.4s;
+        }
 
     .article_top_container {
         display: flex;
@@ -78,8 +80,16 @@
         font-size: 3rem;
     }
     .article_donate a {
+        font-family: Merriweather, serif;
         font-size: 1.25rem;
+        color: #2C4C62;
+        text-decoration: none;
+        transition: 0.4s;
     }
+        .article_donate a:hover {
+            color: rgb(0, 141, 0);
+            transition: 0.4s;
+        }
 
 .article_report {
     flex: 1;
@@ -101,8 +111,18 @@
         font-size: 6rem;
     }
     .article_report a {
+        color: #2C4C62;
+        text-decoration: none;
+        font-family: Merriweather, serif;
+        transition: 0.4s;
         font-size: 1.25rem;
     }
+
+        .article_report a:hover {
+            color: rgb(0, 141, 0);
+            transition: 0.4s;
+        }
+
         .article_report a i {
             color: #009245;
         }
@@ -132,6 +152,9 @@
         .article_top ul {
             line-height: 1.2rem;
             font-size: 0.8rem;
+        }
+        .article_top a {
+            font-size: 0.9rem;
         }
         .article_top_image {
             padding: 0.7rem;
