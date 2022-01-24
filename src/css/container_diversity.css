@@ -82,16 +82,9 @@
         }
 
     a {
-        color: #2C4C62;
         font-family: Merriweather, serif;
         font-size: 1.25rem;
-        text-decoration: none;
-        transition: 0.4s;
     }
-        a:hover {
-            color: rgb(182, 182, 182);
-            transition: 0.4s;
-        }
 
 .download {
     flex-basis: 100%;
