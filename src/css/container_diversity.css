@@ -5,7 +5,7 @@
     margin: 2.5rem 0rem 1.25rem 0rem;
 }
 
-    .article_diversity_image {
+    .article_diversity .article_diversity_image {
         flex-basis: 50%;
         background-image: url('../images/article_diversity_img.jpg');
         background-size: cover;
@@ -15,27 +15,27 @@
         min-height: 50vh;
     }
 
-    .article_diversity_text {
+        .article_diversity .article_diversity_text {
         flex-basis: 50%;
         font-size: 1.15rem;
         line-height: 1.6rem;
         padding: 1.5rem 1.5rem 1.5rem 2rem;
     }
 
-        h1.right {
+        .article_diversity h1.right {
             font-size: 3rem;
             color: #2C4C62;
             margin-left: 2rem;
         }
 
-        .text_right {
+        .article_diversity .text_right {
             border-left: 2px solid #2C4C62;
             padding-left: 2rem;
             margin: 2.5rem 0 2.5rem 0;
             font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
 
-        .more.right {
+        .article_diversity .more.right {
             text-align: left;
             margin-left: 2rem;
         }
@@ -58,7 +58,7 @@
     margin: 2.5rem 0 1.25rem 0rem;
 }
 
-    .article_individually_image {
+    .article_individually .article_individually_image {
         flex-basis: 50%;
         background-image: url('../images/article_individually_img.jpg');
         background-size: cover;
@@ -66,21 +66,21 @@
         min-height: 50vh;
     }
 
-    .article_individually_text {
+    .article_individually .article_individually_text {
         flex-basis: 50%;
         font-size: 1.15rem;
         line-height: 1.6rem;
         padding: 1.5rem 2rem 1.5rem 1.5rem;
     }
 
-        h1.left {
+        .article_individually h1.left {
             font-size: 3rem;
             color: #2C4C62;
             text-align: right;
             margin-right: 2rem;
         }
 
-        .text_left {
+        .article_individually .text_left {
             border-right: 2px solid #2C4C62;
             padding-right: 2rem;
             text-align: right;
@@ -88,7 +88,8 @@
             font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
 
-        .more.left {
+        .article_individually .more.left {
+            text-align: right;
             margin-right: 2rem;
         }
 
@@ -127,12 +128,12 @@
         }
 
 @media only screen and (max-width: 767px) {
-    .article_diversity_image {
+    .article_diversity .article_diversity_image {
         flex-basis: 100%;
         min-height: 35vh;
     }
 
-    .article_individually_image {
+    .article_individually .article_individually_image {
         flex-basis: 100%;
         min-height: 35vh;
     }
@@ -141,24 +142,24 @@
         margin: 0.5rem 0rem 0.6rem 0rem;
     }
       
-        .article_diversity_text {
+        .article_diversity .article_diversity_text {
             flex-basis: 100%;
             font-size: 0.9rem;
             line-height: 1.2rem;
             padding: 1rem 1rem 1rem 1.5rem;
         }
     
-            h1.right {
+            .article_diversity h1.right {
                 font-size: 1.8rem;
                 margin-left: 2rem;
             }
     
-            .text_right {
+            .article_diversity .text_right {
                 padding-left: 1.25rem;
                 margin: 2rem 0 2rem 0;
             }
     
-            .more.right {
+            .article_diversity .more.right {
                 margin-left: 1rem;
             }
 
@@ -170,24 +171,24 @@
         margin: 1.25rem 0rem 0.6rem 0rem;
     }
     
-        .article_individually_text {
+        .article_individually .article_individually_text {
             flex-basis: 100%;
             font-size: 0.9rem;
             line-height: 1.2rem;
             padding: 1rem 1.5rem 1rem 1rem;
         }
     
-            h1.left {
+            .article_individually h1.left {
                 font-size: 1.8rem;
                 margin-right: 2rem;
             }
     
-            .text_left {
+            .article_individually .text_left {
                 padding-right: 1.25rem;
                 margin: 2rem 0 2rem 0;
             }
     
-            .more.left {
+            .article_individually .more.left {
                 margin-right: 1rem;
             }
     

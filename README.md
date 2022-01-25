@@ -26,25 +26,27 @@ next year should support the spirit and the visual style.
 ## Todo
 
 ### First priority
-- Extract SVG from `.article_individually_center`
-- `<meta charset="UTF-8">` should be put on top
-- Check that all CSS files are included everywhere (and check that all
-selectors are properly scoped (`p`, `section` etc))
-- Different titles on different pages
-- Rename HTML files in one style
-- Style "current" page in both header and footer menu (let's consider
-removing `href` attribute and styling via `a:link` pseudo-selector,
-like here https://www.enovate.co.uk/blog/2013/07/16/html5-placeholder-links)
 - Download and use local copy of Google fonts (do we really need all of them?)
-- Put all fonts into `layout.css`
-- Remove UTF-8 encoding specification from CSS
-- Check why `&nbsp;` does not work (this?
-https://stackoverflow.com/a/25233914/118810)
 - Favicon and Apple Touch icon (let's take one from Report-2021)
 - `<meta name="theme-color" content="#fafafa">`,
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
-- `...` -> `&hellip;`
 - CSS for printing
+
+### Done
+- Put all fonts into `layout.css`
+- Remove UTF-8 encoding specification from CSS
+- `<meta charset="UTF-8">` should be put on top
+- Different titles on different pages
+- Check that all CSS files are included everywhere (and check that all
+selectors are properly scoped (`p`, `section` etc))
+- Style "current" page in both header and footer menu (let's consider
+removing `href` attribute and styling via `a:link` pseudo-selector,
+like here https://www.enovate.co.uk/blog/2013/07/16/html5-placeholder-links)
+- Check why `&nbsp;` does not work (this?
+https://stackoverflow.com/a/25233914/118810)
+- Extract SVG from `.article_individually_center`
+- `...` -> `&hellip;`
+- Rename HTML files in one style
 
 ### Ideas
 - Accordion effect in menu

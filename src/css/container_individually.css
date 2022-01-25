@@ -52,7 +52,7 @@
     }
 
     .individually .article_individually_center {
-        background-image: url("data:image/svg+xml;utf8,<svg width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><rect width='100%' height='100%' style='fill: none; stroke: rgb(45,76,98); stroke-width: 7; stroke-dasharray: 12 15'/></svg>");
+        background-image: url('../images/article_individually_center_border.svg');
         padding: 2rem;
         display: flex;
         flex-direction: row;
@@ -77,27 +77,32 @@
         padding-left: 2rem;
         margin: 2rem 0 2rem 2rem;
     }
+    
+.individually .more.left {
+    text-align: right;
+    margin-right: 2rem;
+}
 
-.download {
+.individually .download {
     flex-basis: 100%;
     padding: 0 2rem 0 0;
     margin: 0;
 }
     
-    .download p {
+    .individually .download p {
         text-align: right;
         font-size: 3rem;
         margin: 1rem 0 0 0;
     }
     
-    .download a {
+    .individually .download a {
         font-family: Merriweather, serif;
         font-size: 1.5rem;
         color: #2C4C62;
         text-decoration: none;
         transition: 0.4s;
     }
-        .download a:hover {
+        .individually .download a:hover {
             color: rgb(0, 141, 0);
             transition: 0.4s;
         }
@@ -152,10 +157,10 @@
             margin: 1rem 0 1rem 0.5rem;
         }
 
-    .download {
+        .individually .download {
         padding: 0 1rem 0 0;
     } 
-        .download a {
+        .individually .download a {
             font-size: 1rem;
         }
     }
