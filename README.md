@@ -27,9 +27,6 @@ next year should support the spirit and the visual style.
 
 ### First priority
 - Download and use local copy of Google fonts (do we really need all of them?)
-- Favicon and Apple Touch icon (let's take one from Report-2021)
-- `<meta name="theme-color" content="#fafafa">`,
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
 - CSS for printing
 
 ### Done
@@ -47,6 +44,9 @@ https://stackoverflow.com/a/25233914/118810)
 - Extract SVG from `.article_individually_center`
 - `...` -> `&hellip;`
 - Rename HTML files in one style
+- Favicon and Apple Touch icon (let's take one from Report-2021)
+- `<meta name="theme-color" content="#fafafa">`,
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color
 
 ### Ideas
 - Accordion effect in menu
