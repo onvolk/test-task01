@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 .header_top {
     display: flex;
     flex-direction: row;
@@ -15,28 +18,41 @@ nav {
 
 .title {
     font-size: 18pt;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    padding: 3rem 2rem 2rem 2rem;
 }
 
 .header_logo {
     width: 20%;
 }
 
-.article_top .article_top_image img {
-    width: 30%;
+.container {
+    margin-top: 3rem;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5rem;
 }
 
-.article_top .article_top_image {
+.article_top .article_top_container img {
+    width: 40%;
     float: left;
+    border: 2px solid black;
+    margin: 0 1.5rem 1rem 0;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
+    .container a::after{
+        content: " [" attr(href) "] ";
+    }
+
 .individually .article_individually_top img {
-    width: 30%;
+    width: 40%;
     float: left;
-    padding: 1rem 1rem 0.5rem 0;
+    border: 2px solid black;
+    margin: 0 1.5rem 1rem 0;
     
 }
 
