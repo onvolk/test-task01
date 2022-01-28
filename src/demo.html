@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome-all.css" />
+    <title>title</title>
+    <style>
+      #menu {
+        display: none;
+      }
+
+      label {
+        cursor: pointer;
+        color: white;
+        background-color: #2C4C62;
+        padding: 0.7rem 1rem;
+        font-size: 1.7rem;
+        font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+        label:hover {
+          background-color: #ddd;
+          color: #2C4C62;
+          transition: 0.4s;
+          margin-bottom: 0;
+        }
+
+      ul {
+        margin-top: 0;
+        padding-inline-start: 0;
+        padding-top: 0.6rem;
+        max-width: max-content;
+      }
+
+        ul li {
+          background-color: #2C4C62;
+          list-style-type: none;
+        }
+
+        ul li a {
+          display: inline-block;
+          padding: 0.5rem 1.5rem;
+          font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 1.25rem;
+          color: white;
+          text-decoration: none;
+          transition: 0.4s;
+          border: 1px solid #2C4C62;
+          width: 100%;
+        }
+
+          ul li a:hover {
+                background-color: #ddd;
+                color: #2C4C62;
+                border: 1px solid #ddd;
+                transition: 0.4s;
+            }
+
+            ul li.menu_aktive a {
+                border: 1px solid white;
+            }
+
+
+      #menu + ul {
+        max-height: 0;
+        transition: max-height 0.5s;
+        overflow: hidden;
+      }
+
+      #menu:checked + ul {
+        max-height: 15rem;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="menu"><i class="fas fa-bars"></i></label><input id="menu" name="menu" type="checkbox">
+    <ul>
+      <li><a href="diversity.html">Vielfalt</a></li>
+      <li><a href="individually.html">Individuell</a></li>
+      <li class="menu_aktive"><a href="index.html">Über uns</a></li>
+      <li><a href="index.html">Impressum</a> </li>
+    </ul>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+  </body>
+</html>
