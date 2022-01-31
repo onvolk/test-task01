@@ -17,14 +17,14 @@ next year should support the spirit and the visual style.
 - The graphical layouts were designed in Adobe Illustrator
 - HTML/CSS layout
     - Fully responsive (desktops/tablets/smartphones)
+    - CSS-only accordion menu for mobile devices
     - CSS Media Queries are used where appropriate
     - Extensive use of Flexbox
     - Vector graphics in SVG
     - Font Awesome for logos and icons of the social networks
     - Google Web fonts for custom fonts
 
-## Improvements
-- Accordion effect in menu
+## Potential Improvements
 - Use HTML templating to reduce duplication
 - Local web server
 - Combine and minimize CSS
