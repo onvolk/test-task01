@@ -64,10 +64,10 @@ footer {
 @media only screen and (max-width: 767px) { 
     header { 
         background-image: url('../images/header_mobile.jpg');
-        height: 40vw;
+        height: 70vw;
     }
         .subpage header {
             background-image: url('../images/header_subpage_mobile.jpg');
-            height: 50vw;
+            height: 70vw;
         }
 }   

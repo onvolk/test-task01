@@ -85,10 +85,10 @@
     }
 
     .menu_mobile ul {
-    margin-top: 0;
-    padding-inline-start: 0;
-    padding-top: 0.6rem;
-    max-width: max-content;
+        margin-top: 0;
+        padding-inline-start: 0;
+        padding-top: 0.6rem;
+        max-width: max-content;
     }
 
     .menu_mobile ul li {
@@ -121,13 +121,13 @@
 
 
     .menu_mobile input + ul {
-    max-height: 0;
-    transition: max-height 0.5s;
-    overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.5s;
+        overflow: hidden;
     }
 
     .menu_mobile input:checked + ul {
-    max-height: 15rem;
+        max-height: 15rem;
     }
 
 .header_logo {
@@ -174,8 +174,18 @@
     .menu_mobile {
         display: block;
     }
-    .menu_mobile li a {
-        font-size: 0.5em;
-        padding: 0.2em 1em;
-    } 
-}
+
+        .menu_mobile label {
+            font-size: 0.8em;
+            padding: 0.3rem 0.5rem;
+        }
+
+        .menu_mobile ul {
+            padding-top: 0.2rem;
+        }
+
+            .menu_mobile ul li a {
+                font-size: 0.8em;
+                padding: 0.3em 0.5em;
+            } 
+    }
