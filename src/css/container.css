@@ -22,6 +22,7 @@
     .article_top ul {
         line-height: 1.5rem;
         font-size: 1.15rem;
+        list-style-position: inside;
     }
 
     .article_top a {

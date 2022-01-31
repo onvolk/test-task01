@@ -127,7 +127,7 @@
     }
 
     .menu_mobile input:checked + ul {
-        max-height: 15rem;
+        max-height: 10rem;
     }
 
 .header_logo {
@@ -162,11 +162,11 @@
 
 @media only screen and (max-width: 767px) { 
     .title { 
-        padding: 0.4em 0 0 10vw;
+        padding: 0.4em 0 0 15vw;
         font-size: 0.6em;      
     }
     .subpage .title {
-        padding: 0.4em 0 0 10vw;
+        padding: 0.4em 0 0 15vw;
     }
     .menu{
         display: none;
@@ -176,12 +176,12 @@
     }
 
         .menu_mobile label {
-            font-size: 0.8em;
-            padding: 0.3rem 0.5rem;
+            font-size: 1.5rem;
+            padding: 0.5rem 0.7rem;
         }
 
         .menu_mobile ul {
-            padding-top: 0.2rem;
+            padding-top: 0.4rem;
         }
 
             .menu_mobile ul li a {
