@@ -1,15 +1,14 @@
-## Live version
-
-Project is deployed using GitHub Pages, [click here](https://onvolk.github.io/test-task01/src/). 
 
 ## Project description
-
 The goal of the test task is to design and implement the
 sustainability report for Blanc & Fischer for the year 2022 in the
 form of the subsite/landing page.
 There was already [report for
 2021](https://sustainability.blanc-fischer.com/), the version for the
 next year should support the spirit and the visual style.
+
+## Live version
+Project is deployed using GitHub Pages, [click here](https://onvolk.github.io/test-task01/src/). 
 
 ## The deliverables of the test task
 - Main landing page
