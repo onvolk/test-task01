@@ -60,6 +60,76 @@
                 transition: 0.4s;
             }
 
+.menu_mobile {
+    display: none;
+}
+
+.menu_mobile input {
+    display: none;
+}
+
+    .menu_mobile label {
+    cursor: pointer;
+    color: white;
+    background-color: #2C4C62;
+    padding: 0.7rem 1rem;
+    font-size: 1.7rem;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .menu_mobile label:hover {
+        background-color: #ddd;
+        color: #2C4C62;
+        transition: 0.4s;
+        margin-bottom: 0;
+    }
+
+    .menu_mobile ul {
+        margin-top: 0;
+        padding-inline-start: 0;
+        padding-top: 0.6rem;
+        max-width: max-content;
+    }
+
+    .menu_mobile ul li {
+        background-color: #2C4C62;
+        list-style-type: none;
+    }
+
+    .menu_mobile ul li a {
+        display: inline-block;
+        padding: 0.5rem 1.5rem;
+        font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.25rem;
+        color: white;
+        text-decoration: none;
+        transition: 0.4s;
+        border: 1px solid #2C4C62;
+        width: 100%;
+    }
+
+        .menu_mobile ul li a:hover {
+        background-color: #ddd;
+        color: #2C4C62;
+        border: 1px solid #ddd;
+        transition: 0.4s;
+        }
+
+        .menu_mobile ul li.menu_active a {
+            border: 1px solid white;
+        }
+
+
+    .menu_mobile input + ul {
+        max-height: 0;
+        transition: max-height 0.5s;
+        overflow: hidden;
+    }
+
+    .menu_mobile input:checked + ul {
+        max-height: 15rem;
+    }
+
 .header_logo {
     flex-basis: 15%;
     padding: 0 2vw 0 0;
@@ -98,8 +168,24 @@
     .subpage .title {
         padding: 0.4em 0 0 10vw;
     }
-    .menu li a {
-        font-size: 0.9em;
-        padding: 0.2em 1em;
-    } 
-}
+    .menu{
+        display: none;
+    }
+    .menu_mobile {
+        display: block;
+    }
+
+        .menu_mobile label {
+            font-size: 0.8em;
+            padding: 0.3rem 0.5rem;
+        }
+
+        .menu_mobile ul {
+            padding-top: 0.2rem;
+        }
+
+            .menu_mobile ul li a {
+                font-size: 0.8em;
+                padding: 0.3em 0.5em;
+            } 
+    }
