@@ -5,11 +5,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome-all.css" />
     <title>title</title>
     <style>
-      #menu {
+      .menu_mobile input {
         display: none;
       }
 
-      label {
+      .menu_mobile label {
         cursor: pointer;
         color: white;
         background-color: #2C4C62;
@@ -18,26 +18,26 @@
         font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
 
-        label:hover {
+        .menu_mobile label:hover {
           background-color: #ddd;
           color: #2C4C62;
           transition: 0.4s;
           margin-bottom: 0;
         }
 
-      ul {
+      .menu_mobile ul {
         margin-top: 0;
         padding-inline-start: 0;
         padding-top: 0.6rem;
         max-width: max-content;
       }
 
-        ul li {
+      .menu_mobile ul li {
           background-color: #2C4C62;
           list-style-type: none;
         }
 
-        ul li a {
+        .menu_mobile ul li a {
           display: inline-block;
           padding: 0.5rem 1.5rem;
           font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -49,37 +49,39 @@
           width: 100%;
         }
 
-          ul li a:hover {
-                background-color: #ddd;
-                color: #2C4C62;
-                border: 1px solid #ddd;
-                transition: 0.4s;
-            }
+          .menu_mobile ul li a:hover {
+            background-color: #ddd;
+            color: #2C4C62;
+            border: 1px solid #ddd;
+            transition: 0.4s;
+          }
 
-            ul li.menu_aktive a {
+          .menu_mobile ul li.menu_active a {
                 border: 1px solid white;
             }
 
 
-      #menu + ul {
+      .menu_mobile input + ul {
         max-height: 0;
         transition: max-height 0.5s;
         overflow: hidden;
       }
 
-      #menu:checked + ul {
+      .menu_mobile input:checked + ul {
         max-height: 15rem;
       }
     </style>
   </head>
   <body>
-    <label for="menu"><i class="fas fa-bars"></i></label><input id="menu" name="menu" type="checkbox">
-    <ul>
-      <li><a href="diversity.html">Vielfalt</a></li>
-      <li><a href="individually.html">Individuell</a></li>
-      <li class="menu_aktive"><a href="index.html">Über uns</a></li>
-      <li><a href="index.html">Impressum</a> </li>
-    </ul>
+    <nav class="menu_mobile">
+      <label for="menu"><i class="fas fa-bars"></i></label><input id="menu" type="checkbox">
+      <ul>
+        <li><a href="diversity.html">Vielfalt</a></li>
+        <li><a href="individually.html">Individuell</a></li>
+        <li class="menu_active"><a href="index.html">Über uns</a></li>
+        <li><a href="index.html">Impressum</a> </li>
+      </ul>
+    </nav>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
   </body>
 </html>
